@@ -1,147 +1,231 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet">
-    <title>Renan Catini Amaral</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Renan Catini Amaral</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Renan Catini Amaral</h1>
-        <p>Estudante de Ciência da Computação na Universidade Federal de Alfenas</p>
-        <a><img src="image/eu.jpg" alt="Uma foto de Renan" class="foto-perfil"></a><br>
+<nav>
+  <span class="nav-logo">renan.catini</span>
+  <ul class="nav-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#interesses">Interesses</a></li>
+    <li><a href="#projetos">Projetos</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+</nav>
 
-    </header>
+<main>
+  <div class="hero">
+    <div class="hero-text">
+      <p class="hero-label">Olá, seja bem-vindo</p>
+      <h1>Renan<br><em>Catini</em><br>Amaral</h1>
+      <div class="hero-ctas">
+        <a href="#projetos" class="btn-primary">Ver projetos →</a>
+        <a href="#contato" class="btn-outline">Entrar em contato</a>
+      </div>
+    </div>
+  </div>
 
-    <main>
-        <article class="sobre-mim">
-            <h2>| Sobre mim</h2>
-            <p>
-                Me chamo Renan Catini Amaral, nasci e fui criado no interior de São 
-                Paulo, em Mogi Mirim, e atualmente moro em Alfenas, no sul de Minas 
-                Gerais. Sou estudante de Bacharelado em Ciência da Computação na Unifal-MG, e 
-                confesso que tenho uma “quedinha” por matemática. <br><br>
-                Tenho grande interesse em programação, principalmente em C, Python e 
-                Java, e gosto de desenvolver projetos que unam teoria e prática. Além disso, adoro 
-                explorar novas áreas do conhecimento e estou sempre em busca de aprender algo novo. 
-                <br>
+  <div class="divider"></div>
+
+  <section class="section" id="sobre">
+    <p class="section-label">01 / quem sou eu</p>
+    <h2>Sobre mim</h2>
+
+    <div class="sobre-grid">
+      <div class="sobre-text">
+        <p>
+          Me chamo Renan Catini Amaral, cresci em <strong>Mogi Mirim</strong>, no interior de São Paulo,
+          e hoje moro em <strong>Alfenas</strong>, no sul de Minas Gerais, onde curso Ciência da Computação
+          na Unifal-MG.
+        </p>
+        <p>
+          Confesso que tenho uma quedinha por <strong>matemática</strong> — e isso se reflete nas áreas
+          que mais me interessam: algoritmos, teoria e aprendizado de máquina.
+          Gosto de desenvolver projetos que unam teoria e prática de forma concreta.
+        </p>
+        <p>
+          Tenho uma base sólida experiência com <strong>C, Python e Java (SpringBoot)</strong> e estou sempre em busca
+          de aprender algo novo, seja numa linguagem, área ou campo do conhecimento.
+        </p>
+      </div>
+
+      <div class="sobre-stats">
+        <div class="stat-card">
+          <div class="stat-num">3+</div>
+          <div class="stat-label">Linguagens de programação</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">2</div>
+          <div class="stat-label">Iniciações Científicas ativas</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">2</div>
+          <div class="stat-label">Artigos apresentados em workshops</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">&infin;</div>
+          <div class="stat-label">Blocos em mundos de Minecraft</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section" id="interesses">
+    <p class="section-label">02 / além do código</p>
+    <h2>Interesses</h2>
+
+    <div class="interests-compact">
+      <div class="interest-row">
+        <div class="interest-row-icon">🏐</div>
+        <div class="interest-row-body">
+          <div class="interest-row-title">Vôlei</div>
+          <p class="interest-row-text">
+            Joguei como líbero no Clube Mogiano em campeonatos regionais e, hoje em dia, 
+            de vez em quando ainda me reúno com meus amigos para jogar um vôlei de praia.
+          </p>
+        </div>
+      </div>
+
+      <div class="interest-row">
+            <div class="interest-row-icon">🎮</div>
+            <div class="interest-row-body">
+            <div class="interest-row-title">Jogos &amp; Entretenimento</div>
+            <p class="interest-row-text">
+                Sou bem fã de ficção científica e jogos de exploração. Gosto de passar o tempo construindo projetos no Minecraft, explorando os oceanos de Subnautica ou curtindo a vibe de Stray. Quando vou assistir a algo, curto histórias que prendem a atenção e mexem um pouco com a cabeça, como Interstellar, Severance e o universo de Star Wars.
             </p>
-        </article>
+            <div class="interest-tags">
+                <span class="game-pill">Minecraft</span>
+                <span class="game-pill">Subnautica</span>
+                <span class="game-pill">Stray</span>
+                <span class="game-pill">Interstellar</span>
+                <span class="game-pill">Star Wars</span>
+                <span class="game-pill">Severance</span>
+            </div>
+            </div>
+      </div>
 
-        <article>
-            <h2>| Passa Tempos e Interesses Pessoais</h2>
+    </div>
+  </section>
 
-            <article class="caixa">
-                <h3>Videogames</h3>
+  <div class="divider"></div>
 
-                <a><img src="image/minecraft.png" alt="Logo Minecraft"></a>
-                <a><img src="image/subnautica.png" alt="Logo Subnautica"></a>
-                <a><img src="image/stardew.png" alt="Logo Stardew Valley"></a>
-                <a><img src="image/nomansky.png" alt="Logo No Man’s Sky"></a>
+  <section class="section" id="projetos">
+    <p class="section-label">03 / pesquisa</p>
+    <h2>Projetos em Destaque</h2>
 
-                <p>
-                    Não tem como falar dos meus passatempos sem citar os videogames. Gosto especialmente
-                    dos jogos de sobrevivência, aqueles que me fazem usar a criatividade e pensar em 
-                    como gerenciar cada recurso. Minecraft sempre teve um lugar especial pra mim, jogo
-                     desde pequeno e adoro construir e explorar. Também curto Subnautica, Stardew Valley
-                    e No Man’s Sky, cada um com seu jeitinho único de aventura e descoberta.
+    <div class="projects-list">
+
+        <div class="project-card">
+            <div class="project-num">01</div>
+                <div>
+                <div class="project-subtitle">Iniciação Científica · Unifal-MG</div>
+                <div class="project-title">Detecção e Classificação de Arritmias Cardíacas</div>
+                <p class="project-desc">
+                    Construção de um sistema de classificação baseado em aprendizado de máquina e redes neurais para identificar padrões em sinais de Eletrocardiograma (ECG). O projeto utiliza a base MIT-BIH para distinguir precisamente entre diferentes tipos de arritmias e ritmos cardíacos normais, auxiliando o diagnóstico computadorizado na cardiologia.
                 </p>
-            </article>
+            </div>
+        </div>
 
-            <article class="caixa">
-                <h3>Esportes</h3>
-
-                <p>
-                    Pratiquei poucos esportes até hoje, mas destaco natação e vôlei. Desde recém-nascido
-                    fiz aulas de natação e pratiquei por muito tempo. Também joguei muito vôlei, fazendo
-                    parte do time do Clube Mogiano, onde atuava como líbero por ser ágil e ter ótimos 
-                    reflexos. Com eles participei de diversos campeonatos, inclusive regionais. Quando 
-                    sobra um tempo, gosto de jogar vôlei de areia também, mesmo sendo baixo, sempre acho
-                    muito divertido. Cada esporte tem seu jeito único de me desafiar e divertir, e adoro
-                    aproveitar esses momentos ativos sempre que posso.
+        <div class="project-card">
+            <div class="project-num">02</div>
+                <div>
+                <div class="project-subtitle">Iniciação Científica · Bolsista STEM FAPEMIG</div>
+                <div class="project-title">Diagnóstico Precoce de Doenças Virais com Machine Learning</div>
+                <p class="project-desc">
+                    Desenvolvimento e avaliação de modelos de aprendizado de máquina para a detecção precoce de doenças virais, utilizando dados de parâmetros hematológicos de hemogramas completos. O objetivo é criar uma alternativa precisa e de baixo custo para o sistema público de saúde, validando os classificadores através de métricas como acurácia, recall e AUC-ROC.
                 </p>
-            </article>
+            </div>
+        </div>
+      
+        <div class="project-card">
+            <div class="project-num">03</div>
+            <div>
+            <div class="project-subtitle">Primeira Apresentação em Workshop</div>
+            <div class="project-title">Impacto da Métrica de Distância na Classificação com KNN</div>
+            <p class="project-desc">
+                Análise do uso do algoritmo K-Nearest Neighbors (KNN) para classificação binária de batimentos cardíacos utilizando dados do MIT-BIH. O estudo avaliou como diferentes métricas de distância (como Minkowski e Euclidiana) afetam o desempenho preditivo do modelo na área médica.
+            </p>
+            <div class="project-highlight">
+                A Distância Euclidiana (p=2) obteve o melhor desempenho com sensibilidade de 83,74%, priorizando a redução de falsos negativos em diagnósticos clínicos.
+            </div>
+            </div>
+        </div>
 
-            <article class="caixa">
-                <h3>Séries e Filmes</h3>
+      
 
-                <p>
-                    Entre meus interesses em filmes, séries e animes, gosto de explorar mundos e 
-                    histórias de todos os tipos. Me atraem aventuras épicas como Interstellar e Jurassic
-                    Park, universos cheios de magia e mistério como Harry Potter, e mundos de fantasia e
-                    suspense como Stranger Things e o anime Frieren. Também não deixo de acompanhar os 
-                    universos de super-heróis, tanto da Marvel quanto da DC, e claro, sou fã do imenso 
-                    universo de Star Wars, de Andor aos filmes clássicos.
-                </p>
-            </article>
+      
 
-        </article>
-            <h2>| Projetos em destaque</h2>
-                <article class="caixa">
-                    <h3>
-                        Iniciação Ciêntifica: <br>
-                        • Aprendizado de Máquina na Detecção e Classificação de Arritmias Cardíacas
-                    </h3>
+    </div>
+  </section>
 
-                    <p>
-                        O principal objetivo do projeto é o desenvolvimento de um sistema de 
-                        classificação de arritmias cardíacas baseado em aprendizado de máquina. Este 
-                        sistema visa identificar padrões nos sinais de Eletrocardiograma (ECG) para 
-                        distinguir precisamente entre diferentes tipos de arritmias e ritmos cardíacos 
-                        normais , contribuindo para o avanço de ferramentas de diagnóstico auxiliado por
-                        computador na cardiologia. 
-                    </p>
-                </article>
+  <div class="divider"></div>
 
-                <article class="caixa">
-                    <h3>
-                        Apresentação em banner em Worshop de matemática: <br>
-                        • Impacto da Métrica de Distância na Classificação de Arritmias com o Algoritmo KNN.
-                    </h3>
+  <section class="section">
+    <p class="section-label">04 / acadêmico</p>
+    <h2>Formação</h2>
 
-                    <p>
-                        O trabalho analisou o uso do algoritmo K-Nearest Neighbors (KNN) para a 
-                        classificação binária de batimentos cardíacos em normais e anormais, utilizando 
-                        dados do "MIT-BIH Arrhythmia Database". O foco da pesquisa foi avaliar como 
-                        diferentes métricas de distância (Minkowski) afetavam o desempenho. <br><br>
-                        O resultado principal demonstrou que a distância Euclidiana (p=2) obteve o 
-                        melhor desempenho. Essa configuração foi priorizada por maximizar a Sensibilidade 
-                        (83,74%), crucial para reduzir Falsos Negativos (não detectar uma arritmia 
-                        real) em diagnósticos clínicos.
-                    </p>
-                </article>
+    <div class="edu-card">
+      <div class="edu-icon">🎓</div>
+      <div>
+        <div class="edu-degree">Bacharelado em Ciência da Computação</div>
+        <div class="edu-inst">Universidade Federal de Alfenas · Unifal-MG · Alfenas, MG</div>
+        <span class="edu-badge">em andamento</span>
+      </div>
+    </div>
+  </section>
 
-        <article>
+  <div class="divider"></div>
 
-        </article>
+  <section class="section" id="contato">
+    <p class="section-label">05 / fale comigo</p>
+    <h2>Contato</h2>
 
-        <article>
-            <h2>| Formação Acadêmica</h2>
-                <p>
-                    Cursando graduação em Ciência da Computação, Universidade
-                    Federal de Alfenas (Unifal-MG).
-                </p>
-        </article>
+    <div class="contact-grid">
+      <a href="mailto:renan.amaral@sou.unifal-mg.edu.br" class="contact-item">
+        <span class="contact-icon">✉️</span>
+        <div>
+          <div class="contact-label">Email</div>
+          <div class="contact-value">renan.amaral@sou.unifal-mg.edu.br</div>
+        </div>
+      </a>
+      <a href="https://github.com/RenanCatini" class="contact-item" target="_blank">
+        <span class="contact-icon">⌥</span>
+        <div>
+          <div class="contact-label">GitHub</div>
+          <div class="contact-value">RenanCatini</div>
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/renan-catini" class="contact-item" target="_blank">
+        <span class="contact-icon">✦</span>
+        <div>
+          <div class="contact-label">LinkedIn</div>
+          <div class="contact-value">renan-catini</div>
+        </div>
+      </a>
+      <a href="https://www.instagram.com/renan.catini" class="contact-item" target="_blank">
+        <span class="contact-icon">📸</span>
+        <div>
+          <div class="contact-label">Instagram</div>
+          <div class="contact-value">@renan.catini</div>
+        </div>
+      </a>
+    </div>
+  </section>
 
-        <article class="dados-pessoais">
-                <h2>| Contados</h2>
-                <ul>
-                    <li>Email: <a href="mailto:renan.amaral@sou.unifal-mg.edu.br">renan.amaral@sou.unifal-mg.edu.br</a></li>
-                    <li>GitHub: <a href="https://github.com/RenanCatini">RenanCatini</a></li>
-                    <li>LinkedIn: <a href="https://www.linkedin.com/in/renan-catini?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">renan-catini</a></li>
-                </ul>
-            </h3>
-        </article>
+</main>
 
+<footer>
+  <p>© 2026 Renan Catini Amaral</p>
+</footer>
 
-    </main>
-
-    <footer>
-        <p>© 2025 Renan Catini. Todos os direitos reservados.</p>
-        <p>Trabalho feito usando HTML e CSS para a matéria de Programação Web</p>
-    </footer>
- 
 </body>
 </html>
