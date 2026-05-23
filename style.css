@@ -502,22 +502,21 @@ footer {
 .hero-text > *:nth-child(3) { animation-delay: 0.3s; }
 
 /* RESPONSIVE */
-/* Correção específica para celulares */
 @media (max-width: 600px) {
   nav {
-    flex-direction: column; /* Coloca a logo em cima e os links embaixo */
-    gap: 0.8rem; /* Cria um espaço entre a logo e o menu */
+    flex-direction: column; 
+    gap: 0.8rem; 
     padding: 1rem 1.5rem;
   }
   
   .nav-links {
     width: 100%;
-    justify-content: center; /* Centraliza os links */
-    gap: 1rem; /* Reduz o espaço entre os links */
-    flex-wrap: wrap; /* Se a tela for muito pequena, joga o link pra linha de baixo em vez de espremer */
+    justify-content: center; 
+    gap: 1rem; 
+    flex-wrap: wrap;
   }
 
   .nav-links a {
-    font-size: 0.8rem; /* Diminui levemente a fonte para caber melhor */
+    font-size: 0.8rem;
   }
 }
